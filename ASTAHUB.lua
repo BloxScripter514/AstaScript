@@ -1,0 +1,6 @@
+local Window = Library.CreateLib("ASTA", "DarkTheme")
+local Tab = Window:NewTab("Tab")
+local Section = Tab:NewSection("Farm")
+Section:NewButton("Auto farm level", "ButtonInfo", function()
+    print("Clicked")
+end)
